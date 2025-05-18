@@ -1,0 +1,14 @@
+D:\CursoC#\estudosC#\bin\Debug\net8.0\estudosC#.exe
+D:\CursoC#\estudosC#\bin\Debug\net8.0\estudosC#.deps.json
+D:\CursoC#\estudosC#\bin\Debug\net8.0\estudosC#.runtimeconfig.json
+D:\CursoC#\estudosC#\bin\Debug\net8.0\estudosC#.dll
+D:\CursoC#\estudosC#\bin\Debug\net8.0\estudosC#.pdb
+D:\CursoC#\estudosC#\obj\Debug\net8.0\estudosC#.GeneratedMSBuildEditorConfig.editorconfig
+D:\CursoC#\estudosC#\obj\Debug\net8.0\estudosC#.AssemblyInfoInputs.cache
+D:\CursoC#\estudosC#\obj\Debug\net8.0\estudosC#.AssemblyInfo.cs
+D:\CursoC#\estudosC#\obj\Debug\net8.0\estudosC#.csproj.CoreCompileInputs.cache
+D:\CursoC#\estudosC#\obj\Debug\net8.0\estudosC#.dll
+D:\CursoC#\estudosC#\obj\Debug\net8.0\refint\estudosC#.dll
+D:\CursoC#\estudosC#\obj\Debug\net8.0\estudosC#.pdb
+D:\CursoC#\estudosC#\obj\Debug\net8.0\estudosC#.genruntimeconfig.cache
+D:\CursoC#\estudosC#\obj\Debug\net8.0\ref\estudosC#.dll

@@ -9,13 +9,15 @@ namespace estudosC_.estrutura_condicional
 {
     internal class exercicio
     {
-        public static void NotasAlunos() {
+        public static void NotasAlunos()
+        {
             string[] vet = Console.ReadLine().Split(' ');
-              int x = int.Parse(vet[0]);
-              int y = int.Parse(vet[1]);
-              int z = int.Parse(vet[2]);
+            int x = int.Parse(vet[0]);
+            int y = int.Parse(vet[1]);
+            int z = int.Parse(vet[2]);
 
-            if (x < y && x < z) {
+            if (x < y && x < z)
+            {
                 Console.WriteLine("MENOR = " + x);
             }
 
@@ -27,7 +29,8 @@ namespace estudosC_.estrutura_condicional
 
             else
             {
-               Console.WriteLine("MENOR = " + z);
+
+                Console.WriteLine("MENOR = " + z);
 
             }
 
@@ -37,5 +40,5 @@ namespace estudosC_.estrutura_condicional
 
 
     }
-    }
+}
 

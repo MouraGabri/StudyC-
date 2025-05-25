@@ -21,7 +21,7 @@ namespace estudosC_.estrutura_condicional
             }
             else
             {
-                duracao =  horaFinal - horaInicio;
+                duracao = horaFinal - horaInicio;
 
             }
 

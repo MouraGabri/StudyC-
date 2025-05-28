@@ -38,7 +38,7 @@ namespace estudosC_.estrutura_condicional
             int duraMinutos = duracaoTotalSegundos / 60;
 
 
-            Console.WriteLine($"O JOGO DUROU {duracaoHoras} HORA(S) E {duraMinutos} MINUTO(S)");
+            Console.WriteLine($"O JOGO DUROU {duracaoHoras} HORA(S) E {duraMinutos} MINUTO(S) e durou x dias...");
 
         }
 

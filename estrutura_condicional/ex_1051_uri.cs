@@ -36,6 +36,7 @@ namespace estudosC_.estrutura_condicional
 
             else
             {
+                valor2 = 2.00 * 0.18;
 
             }
         }

@@ -28,6 +28,10 @@ namespace estudosC_.exercicios_gpt.ex_while
                     tentativas++;
                     Console.WriteLine("Tentativas:" + tentativas + " de 3");
                 }
+
+
+
+
             }
         }
     }

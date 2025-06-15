@@ -11,14 +11,25 @@ namespace estudosC_.exercicios_gpt.ex_while
         public static void ContadorDeDigitos()
         {
 
+   
+            while (true)
+            {
+                ulong entrada = ulong.Parse(Console.ReadLine());
 
-            int entrada = int.Parse(Console.ReadLine());
+                if (entrada > 0)
+                {
+                    int totalNUmber = entrada.ToString().Length;
+                    Console.WriteLine("total de caracteres:");
+                    Console.WriteLine(totalNUmber);
+                    break;
+                }
 
-            while (entrada > 0)
-            {  
-                int totalNUmber = entrada.ToString().Length;
-                Console.WriteLine(totalNUmber);
-                break;
+                else
+                {
+                    Console.WriteLine("Informe um valor Positivo");
+                   
+                }
+
             }
         }
     }

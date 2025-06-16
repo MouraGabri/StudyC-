@@ -14,7 +14,7 @@ namespace estudosC_.exercicios_gpt.ex_while
    
             while (true)
             {
-                ulong entrada = ulong.Parse(Console.ReadLine());
+                int entrada = int.Parse(Console.ReadLine());
 
                 if (entrada > 0)
                 {

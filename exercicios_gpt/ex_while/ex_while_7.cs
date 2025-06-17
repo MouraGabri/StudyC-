@@ -19,7 +19,7 @@ namespace estudosC_.exercicios_gpt.ex_while
             {
                 int entrada = int.Parse(Console.ReadLine());
 
-                if (entrada >= 0 || entrada <= 10)
+                if (entrada >= 0 && entrada <= 10)
                 {
                     valoresNotas += entrada;
                     totalMedias++;

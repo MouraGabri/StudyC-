@@ -13,7 +13,7 @@ namespace estudosC_.estrutura_repeticao.estrutura_for
         {
             int n, x, soma = 0;
 
-            n = int.Parse(Console.ReadLine());
+            n = int.Parse(Console.ReadLine  ());
 
             for (int i = 1; i <= n; i++)
             {

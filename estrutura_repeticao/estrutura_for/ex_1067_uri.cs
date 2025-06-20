@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace estudosC_.estrutura_repeticao.estrutura_for
+﻿namespace estudosC_.estrutura_repeticao.estrutura_for
 {
     internal class ex_1067_uri
     {

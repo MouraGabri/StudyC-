@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Xml;
-
-namespace estudosC_.estrutura_repeticao.estrutura_for
+﻿namespace estudosC_.estrutura_repeticao.estrutura_for
 {
     internal class ex_00_for
     {
@@ -13,7 +6,7 @@ namespace estudosC_.estrutura_repeticao.estrutura_for
         {
             int n, x, soma = 0;
 
-            n = int.Parse(Console.ReadLine  ());
+            n = int.Parse(Console.ReadLine());
 
             for (int i = 1; i <= n; i++)
             {

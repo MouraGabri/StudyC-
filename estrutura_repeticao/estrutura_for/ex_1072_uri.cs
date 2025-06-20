@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace estudosC_.estrutura_repeticao.estrutura_for
+﻿namespace estudosC_.estrutura_repeticao.estrutura_for
 {
     internal class ex_1072_uri
     {
@@ -12,7 +6,7 @@ namespace estudosC_.estrutura_repeticao.estrutura_for
         {
             Console.Write("Informe a quantidade de repetições:");
             int qtdRepeticoes = int.Parse(Console.ReadLine());
-            int noIntervalo = 0; 
+            int noIntervalo = 0;
             int foraIntervalo = 0;
 
             for (int i = 0; i < qtdRepeticoes; i++)
@@ -22,7 +16,7 @@ namespace estudosC_.estrutura_repeticao.estrutura_for
 
                 if (number >= 10 && number <= 20)
                 {
-                    noIntervalo ++;
+                    noIntervalo++;
                 }
 
                 else

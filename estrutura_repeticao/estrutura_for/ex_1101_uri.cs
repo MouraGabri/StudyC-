@@ -12,19 +12,15 @@ namespace estudosC_.estrutura_repeticao.estrutura_for
         public static void SequenciaNumerosESoma()
         {
 
-            int x = 1;
-            int y = 1;
+            Console.Write("Valor de X:");
+            int x = int.Parse(Console.ReadLine());
+
+            Console.Write("Valor de Y:");
+            int y = int.Parse(Console.ReadLine());
             int maior, menor;
 
             while (x > 0 && y > 0)
             {
-
-                Console.Write("Valor de X:");
-                x = int.Parse(Console.ReadLine());
-
-                Console.Write("Valor de Y:");
-                y = int.Parse(Console.ReadLine());
-
                 if (x > y) { maior = x; menor = y; }
                 else { maior = y; menor = x; }
                 int soma = 0;
@@ -38,6 +34,13 @@ namespace estudosC_.estrutura_repeticao.estrutura_for
                         Console.WriteLine($"Sum=  {soma} ");
                     }
                 }
+                Console.WriteLine("====================================================:");
+                Console.Write("Valor de X:");
+                x = int.Parse(Console.ReadLine());
+
+                Console.Write("Valor de Y:");
+                y = int.Parse(Console.ReadLine());
+               
             }
         }
 

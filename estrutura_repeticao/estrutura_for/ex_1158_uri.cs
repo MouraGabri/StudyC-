@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace estudosC_.estrutura_repeticao.estrutura_for
 {
-    internal class ex_1145_uri
+    internal class ex_1158_uri
     {
         public static void SequenciaLogica2()
         {
@@ -19,7 +19,6 @@ namespace estudosC_.estrutura_repeticao.estrutura_for
             Console.Write("Valor de Y(Qtd de números impares que deve somar):");
             int y = int.Parse(Console.ReadLine());
             int inicio = x;
-           
 
             for (int i = 1; i <= n; i++)
             {
@@ -32,15 +31,12 @@ namespace estudosC_.estrutura_repeticao.estrutura_for
                     inicio = x;
                 }
                 int soma = 0;
-                for (int j = 0;  j < y; j++)
+                for (int j = 0; j < y; j++)
                 {
-             
-                     Console.WriteLine(inicio);
-            
                     soma += inicio;
                     inicio += 2;
-                    //Console.WriteLine(soma);
                 }
+                Console.WriteLine(soma);
 
                 Console.Write("X(Número incial da sequência):");
                 x = int.Parse(Console.ReadLine());
@@ -49,7 +45,7 @@ namespace estudosC_.estrutura_repeticao.estrutura_for
                 y = int.Parse(Console.ReadLine());
 
             }
-            
+
 
         }
     }

@@ -25,18 +25,15 @@ namespace estudosC_.vetores
                 vet[i] = valores;
             }
 
-            for (int i = 0; i < vet.Length; i++)
+            for (int i = 1; i < vet.Length; i++)
             {
-                if (numeroMaior > vet[i + 1])
+                if (vet[i] > numeroMaior)
                 {
-                    Console.WriteLine("Número maior" + numeroMaior);
-                    int numberMaior = numeroMaior;
+                    numeroMaior += vet[i];
                 }
-                else
-                {
-                    numeroMaior = vet[i + 1];
-                }
+                
             }
+            Console.WriteLine(numeroMaior);
 
 
         }

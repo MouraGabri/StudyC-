@@ -28,6 +28,7 @@ namespace estudosC_.vetores
                 Console.Write(vet[i]+",");
                 contadorNumerosPares++;
 
+
                 }
 
             }

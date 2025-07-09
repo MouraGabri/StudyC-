@@ -59,12 +59,21 @@ namespace estudosC_.vetores
                 }
                 else
                 {
+                    
                     contadorHomens++;
                 }
             }
-            somaElementosMedia = Math.Round(somaElementosMedia, 2);
-            media = somaElementosMedia / contadorMulheres;
-            Console.WriteLine("Menor altura:" + menorAltura.ToString("F2", CultureInfo.InvariantCulture));
+            //somaElementosMedia = Math.Round(somaElementosMedia, 2);
+            if (contadorMulheres > 0)
+            {
+                media = somaElementosMedia / contadorMulheres;
+            }
+            else
+            {
+                media = 0.0;
+            }
+
+                Console.WriteLine("Menor altura:" + menorAltura.ToString("F2", CultureInfo.InvariantCulture));
             Console.WriteLine("Maior altura:" + maiorAltura.ToString("F2", CultureInfo.InvariantCulture));
             Console.WriteLine("Media das alturas das mulheres:" + media.ToString("F2", CultureInfo.InvariantCulture));
             Console.WriteLine("Numero de homens:" + contadorHomens);

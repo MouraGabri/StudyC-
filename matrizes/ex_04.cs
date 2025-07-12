@@ -1,0 +1,54 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace estudosC_.matrizes
+{
+    internal class ex_04
+    {
+        public static void MaiorElemento()
+        {
+            Console.Write("QTD Linhas x Colunas Matriz Quadrada:");
+            int linhas = int.Parse(Console.ReadLine());
+            int[,] mat = new int[linhas, linhas];
+
+
+
+            //Inserindo valores nas linhas e colunas em uma matriz quadrada:
+            Console.WriteLine("Inserindo valores na matriz:");
+            for (int i = 0; i < linhas; i++)
+            {
+                for (int j = 0; j < linhas; j++)
+                {
+                    Console.Write($"linha {i}, valor para coluna {j}:");
+                    int valor = int.Parse(Console.ReadLine());
+                    mat[i, j] = valor;
+                }
+
+            }
+             
+            Console.WriteLine("Maiores elementos da linha da matriz:");
+
+            for (int i = 0; i < linhas; i++)
+            {
+                int maiorValor = mat[i, 0];
+
+
+                for (int j = 1; j < linhas; j++)
+                {
+                    if (mat[i,j] > maiorValor)
+                    {
+                        maiorValor = mat[i, j];
+                    }
+
+
+                }
+                Console.WriteLine(maiorValor);
+
+
+            }
+        }
+    }
+}

@@ -1,10 +1,11 @@
-﻿using estudosC_.entrada_dados.exercicios_03;
+﻿using estudosC_.matrizes;
+using estudosC_.POO_C_;
+
 
 class Program  // Definição da classe Program
 {
     static void Main(string[] args)  // O método Main onde a execução começa
     {
-        ex_1061_uri.TempoVento();
-
+        Testar_Salario.Executar();
     }
 }

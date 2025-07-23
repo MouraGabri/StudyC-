@@ -18,10 +18,21 @@ namespace estudosC_.POO_C_
             Console.WriteLine("Entre com os dados do produto:");
             Console.Write("Nome:");
             pdt.nome = Console.ReadLine();
+
             Console.Write("Preço:");
             pdt.preco = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
             Console.Write("Quantidade no Estoque:");
             pdt.quantidade = int.Parse(Console.ReadLine());
+
+            Console.WriteLine($"Dados do Produto: {pdt.nome}, ${pdt.preco.ToString("F2", CultureInfo.InvariantCulture)}, Total: ${pdt.ValorTotalEmEstoque().ToString("F2", CultureInfo.InvariantCulture)}");
+            Console.Write("Digite o número de produtos a ser adicionado ao estoque:");
+            pdt.AdicionarProdutos(int.Parse(Console.ReadLine()));
+            Console.WriteLine($"Dados atualizados: {pdt.nome}, ${pdt.preco.ToString("F2", CultureInfo.InvariantCulture)}, Total: ${pdt.ValorTotalEmEstoque().ToString("F2", CultureInfo.InvariantCulture)}");
+
+            Console.Write("Digite o número de produtos a ser removido do estoque:");
+            pdt.RemoverProdutos(int.Parse(Console.ReadLine()));
+            Console.WriteLine($"Dados atualizados: {pdt.nome}, ${pdt.preco.ToString("F2", CultureInfo.InvariantCulture)}, Total: ${pdt.ValorTotalEmEstoque().ToString("F2", CultureInfo.InvariantCulture)}");
         }
 
 

@@ -14,22 +14,25 @@ namespace estudosC_.POO_C_
         public double preco;
         public int quantidade;
 
+        public override string ToString()
+        {
+            return $"Dados do Produto: {nome}, ${preco.ToString("F2", CultureInfo.InvariantCulture)},{quantidade} unidades, Total: ${ValorTotalEmEstoque().ToString("F2", CultureInfo.InvariantCulture)}";
+        }
 
         public double ValorTotalEmEstoque()
         {
-            return preco * quantidade;
+            double result = preco * quantidade;
+            return result;
         }
 
         public void AdicionarProdutos(int qtd)
         {
-            int valor = quantidade += qtd;
-            Console.WriteLine($"Dados atualizados: {nome}, ${preco.ToString("F2", CultureInfo.InvariantCulture)},{quantidade} unidades, Total: ${valor.ToString("F2", CultureInfo.InvariantCulture)}");
+            quantidade += qtd;
         }
 
         public void RemoverProdutos(int qtd)
         {
-            int valor = quantidade -= qtd;
-            Console.WriteLine($"Dados atualizados: {nome}, ${preco.ToString("F2", CultureInfo.InvariantCulture)},{quantidade} unidades, Total: ${valor.ToString("F2", CultureInfo.InvariantCulture)}");
+            quantidade -= qtd;
         }
 
     }

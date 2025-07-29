@@ -15,6 +15,7 @@ namespace estudosC_.POO_C_
             Produto pdt;
             pdt = new Produto();
 
+
             Console.WriteLine("Entre com os dados do produto:");
             Console.Write("Nome:");
             pdt.nome = Console.ReadLine();

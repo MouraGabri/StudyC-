@@ -33,6 +33,7 @@ namespace estudosC_.POO_C_
         public void RemoverProdutos(int qtd)
         {
             quantidade -= qtd;
+            Console.WriteLine($"Dados atualizados: {nome}, ${preco.ToString("F2", CultureInfo.InvariantCulture)},{quantidade} unidades, Total: ${ValorTotalEmEstoque().ToString("F2", CultureInfo.InvariantCulture)}");
         }
 
     }
